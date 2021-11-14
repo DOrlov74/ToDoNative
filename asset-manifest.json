@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/ToDoNative/static/js/main.60ccab98.chunk.js",
+    "main.js.map": "/ToDoNative/static/js/main.60ccab98.chunk.js.map",
+    "runtime-main.js": "/ToDoNative/static/js/runtime-main.c04e6551.js",
+    "runtime-main.js.map": "/ToDoNative/static/js/runtime-main.c04e6551.js.map",
+    "static/js/2.d82ad3ff.chunk.js": "/ToDoNative/static/js/2.d82ad3ff.chunk.js",
+    "static/js/2.d82ad3ff.chunk.js.map": "/ToDoNative/static/js/2.d82ad3ff.chunk.js.map",
+    "static/js/3.1b49b204.chunk.js": "/ToDoNative/static/js/3.1b49b204.chunk.js",
+    "static/js/3.1b49b204.chunk.js.map": "/ToDoNative/static/js/3.1b49b204.chunk.js.map",
+    "index.html": "/ToDoNative/index.html",
+    "static/js/2.d82ad3ff.chunk.js.LICENSE.txt": "/ToDoNative/static/js/2.d82ad3ff.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c04e6551.js",
+    "static/js/2.d82ad3ff.chunk.js",
+    "static/js/main.60ccab98.chunk.js"
+  ]
+}
