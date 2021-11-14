@@ -12,7 +12,7 @@ The program gets the current time from www.timeapi.io
 - React Router
 - Styled-Components
 - React-Native-Web
-- axios
+- Axios
 
 ## Published
 
