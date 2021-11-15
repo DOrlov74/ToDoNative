@@ -34,12 +34,23 @@ export const deleteToDo = (id: number) => {
     }
 }
 
-axios.defaults.baseURL="https://www.timeapi.io/api";
-const url = '/Time/current/zone';
+axios.defaults.baseURL="http://worldtimeapi.org/api";
+const url = '/timezone/Etc/UTC';
 const params = {
     params: {timeZone: 'Etc/GMT'}
 };
-export const getTime = <DateTimeDto>() => axios.get<DateTimeDto>(url, params)
-    .then(<DateTimeDto>(response: AxiosResponse<DateTimeDto>) => {
-        return response.data;
-    })
+// export const getTime = <DateTimeDto>() => axios.get<DateTimeDto>(url, params)
+//     .then(<DateTimeDto>(response: AxiosResponse<DateTimeDto>) => {
+//         console.log(response.data);
+//         return response.data;
+//     })
+
+export async function getTime<DateTimeDto>(){
+try {
+        const response = await axios.get(url);
+            console.log(response);
+            return response.data
+        } catch (err: any) {
+            console.error(err);
+        }
+}

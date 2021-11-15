@@ -1,3 +1,3 @@
 export interface DateTimeDto {
-    dateTime: string;
+    datetime: string;
 }

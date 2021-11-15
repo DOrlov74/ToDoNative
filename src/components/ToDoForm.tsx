@@ -62,14 +62,13 @@ export default function ToDoForm() {
     }, [])
 
     function handleSubmit() {
-        if (validateContext()){
-            
+        if (validateContext()){  
                 getTime<DateTimeDto>().then(
                     response => {
                         if (task.Id !== 0) {
-                            task.Edited = new Date(response.dateTime);
+                            task.Edited = new Date(response.datetime);
                         } else {
-                            task.Created = new Date(response.dateTime);
+                            task.Created = new Date(response.datetime);
                         }
                     }
                 ).catch((error) => {
