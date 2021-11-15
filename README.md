@@ -16,4 +16,4 @@ The program gets the current time from www.timeapi.io
 
 ## Published
 
-The site is published at https://dorlov74.github.io/ToDoNative/
+The site is published at https://todonative-denis.herokuapp.com/
